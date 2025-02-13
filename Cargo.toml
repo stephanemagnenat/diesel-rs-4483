@@ -1,0 +1,13 @@
+[package]
+name = "diesel-rs-4483"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stéphane Magnenat"]
+
+[dependencies]
+ipnetwork = "0.20"
+diesel = { version = "=2.2.7", features = [
+	"postgres",
+	"extras",
+	"network-address",
+] }
