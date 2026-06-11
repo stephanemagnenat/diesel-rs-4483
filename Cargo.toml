@@ -6,7 +6,7 @@ authors = ["Stéphane Magnenat"]
 
 [dependencies]
 ipnetwork = "0.20"
-diesel = { version = "=2.2.7", features = [
+diesel = { version = "=2.3.10", features = [
 	"postgres",
 	"extras",
 	"network-address",
